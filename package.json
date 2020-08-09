@@ -30,5 +30,10 @@
     "jest": "^26.2.2",
     "node-fetch": "^2.6.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ]
 }
