@@ -1,0 +1,34 @@
+{
+  "name": "reserved-tokens",
+  "version": "0.0.1",
+  "description": "determine if a token is reserved in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "sync": "node ./scripts/syncFromV8.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tli4/reserved-tokens.git"
+  },
+  "keywords": [
+    "reserved",
+    "reserved-words",
+    "tokens",
+    "reserved-tokens"
+  ],
+  "author": "troy.lty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tli4/reserved-tokens/issues"
+  },
+  "homepage": "https://github.com/tli4/reserved-tokens#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.9.7"
+  }
+}
