@@ -3,12 +3,13 @@
 #### Installation
 
 ```
-npm install reserved-words
+npm install reserved-tokens
 ```
 
 #### API
 
 ```javascript
+import { isReserved, getValidVarName } from 'reserved-tokens';
 const valid = !isReserved(word);
 const validName = getValidVarName(word);
 ```
