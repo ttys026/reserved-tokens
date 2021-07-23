@@ -9,7 +9,7 @@ const getUid = (name: string) => {
 }
 
 const isReserved = (name: string) => {
-  return keywords.includes(name) || tokens.includes(name);
+  return keywords.includes(name) || tokens.some(tok => name.includes(tok));
 }
 
 const getValidVarName = (name: string) => {
